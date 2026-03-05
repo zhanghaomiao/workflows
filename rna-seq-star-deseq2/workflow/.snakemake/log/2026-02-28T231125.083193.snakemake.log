@@ -1,0 +1,2 @@
+WorkflowError in file "/share_gpu/flowo/catalog/rna-seq-star-deseq2/workflow/Snakefile", line 8:
+Workflow defines configfile config/config.yaml but it is not present or accessible (full checked path: /share_gpu/flowo/catalog/rna-seq-star-deseq2/workflow/config/config.yaml).

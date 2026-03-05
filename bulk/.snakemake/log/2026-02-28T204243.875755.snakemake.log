@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in rule all in file "/flowo-data/templates/bulk/workflow/Snakefile", line 3:
+Missing input files for rule all:
+    affected files:
+        results/output.txt

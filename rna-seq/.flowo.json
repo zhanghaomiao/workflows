@@ -1,0 +1,15 @@
+{
+  "name": "rna-seq",
+  "slug": "rna-seq",
+  "description": "",
+  "version": "0.1.0",
+  "owner": "zhanghm@iregene.com",
+  "tags": [
+    "rna",
+    "seq"
+  ],
+  "is_public": false,
+  "source_url": "",
+  "created_at": "2026-02-25T15:03:23.483523+00:00",
+  "updated_at": "2026-02-28T14:19:49.891753+00:00"
+}

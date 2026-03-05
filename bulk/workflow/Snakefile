@@ -1,0 +1,5 @@
+# Snakemake workflow
+
+rule all:
+    shell:
+        "echo '这个任务不产生文件，只执行逻辑'"

@@ -1,0 +1,14 @@
+{
+  "name": "bulk",
+  "slug": "bulk",
+  "description": "bulk rna",
+  "version": "0.1.0",
+  "owner": "zhanghm@iregene.com",
+  "tags": [
+    "bulk"
+  ],
+  "is_public": false,
+  "source_url": "",
+  "created_at": "2026-02-28T03:44:00.089375+00:00",
+  "updated_at": "2026-02-28T12:49:03.736024+00:00"
+}
