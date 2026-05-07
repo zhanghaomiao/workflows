@@ -1,0 +1,44 @@
+# For a fully commented config.yaml file, see the main `config/config.yaml`
+# example file.
+
+samples: config_complex/samples.tsv
+units: config_complex/units.tsv
+
+ref:
+  species: saccharomyces_cerevisiae
+  release: 115
+  build: R64-1-1
+
+trimming:
+  activate: False
+
+mergeReads:
+  activate: False
+
+pca:
+  activate: True
+  labels:
+    - jointly_handled
+
+diffexp:
+  variables_of_interest:
+    treatment_1:
+      base_level: untreated
+    treatment_2:
+      base_level: untreated
+  batch_effects:
+    - jointly_handled
+  contrasts:
+    treatment_1_alone:
+      variable_of_interest: treatment_1
+      level_of_interest: treated
+    treatment_2_alone:
+      variable_of_interest: treatment_2
+      level_of_interest: treated
+    both_treatments: 'list(c("treatment_1_treated_vs_untreated", "treatment_2_treated_vs_untreated", "treatment_1treated.treatment_2treated"))'
+  model: ""
+
+params:
+  star:
+    index: ""
+    align: ""
