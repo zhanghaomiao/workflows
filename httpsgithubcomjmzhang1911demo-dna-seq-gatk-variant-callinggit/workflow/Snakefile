@@ -1,0 +1,4 @@
+# Snakemake workflow
+
+rule all:
+    shell: "echo "hello""
